@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BF1F6131E53D344006EF793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F6121E53D344006EF793 /* AppDelegate.swift */; };
+		9BF1F6151E53D344006EF793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F6141E53D344006EF793 /* ViewController.swift */; };
+		9BF1F6171E53D344006EF793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F6161E53D344006EF793 /* Assets.xcassets */; };
+		9BF1F61A1E53D344006EF793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F6181E53D344006EF793 /* Main.storyboard */; };
+		9BF1F6251E53D344006EF793 /* TapprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F6241E53D344006EF793 /* TapprTests.swift */; };
+		9BF1F6301E53D344006EF793 /* TapprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F62F1E53D344006EF793 /* TapprUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF1F6211E53D344006EF793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF1F6071E53D344006EF793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF1F60E1E53D344006EF793;
+			remoteInfo = Tappr;
+		};
+		9BF1F62C1E53D344006EF793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF1F6071E53D344006EF793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF1F60E1E53D344006EF793;
+			remoteInfo = Tappr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BF1F60F1E53D344006EF793 /* Tappr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tappr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF1F6121E53D344006EF793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF1F6141E53D344006EF793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF1F6161E53D344006EF793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF1F6191E53D344006EF793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF1F61B1E53D344006EF793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF1F6201E53D344006EF793 /* TapprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF1F6241E53D344006EF793 /* TapprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapprTests.swift; sourceTree = "<group>"; };
+		9BF1F6261E53D344006EF793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF1F62B1E53D344006EF793 /* TapprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF1F62F1E53D344006EF793 /* TapprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapprUITests.swift; sourceTree = "<group>"; };
+		9BF1F6311E53D344006EF793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF1F60C1E53D344006EF793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F61D1E53D344006EF793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F6281E53D344006EF793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF1F6061E53D344006EF793 = {
+			isa = PBXGroup;
+			children = (
+				9BF1F6111E53D344006EF793 /* Tappr */,
+				9BF1F6231E53D344006EF793 /* TapprTests */,
+				9BF1F62E1E53D344006EF793 /* TapprUITests */,
+				9BF1F6101E53D344006EF793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF1F6101E53D344006EF793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF1F60F1E53D344006EF793 /* Tappr.app */,
+				9BF1F6201E53D344006EF793 /* TapprTests.xctest */,
+				9BF1F62B1E53D344006EF793 /* TapprUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF1F6111E53D344006EF793 /* Tappr */ = {
+			isa = PBXGroup;
+			children = (
+				9BF1F6121E53D344006EF793 /* AppDelegate.swift */,
+				9BF1F6141E53D344006EF793 /* ViewController.swift */,
+				9BF1F6161E53D344006EF793 /* Assets.xcassets */,
+				9BF1F6181E53D344006EF793 /* Main.storyboard */,
+				9BF1F61B1E53D344006EF793 /* Info.plist */,
+			);
+			path = Tappr;
+			sourceTree = "<group>";
+		};
+		9BF1F6231E53D344006EF793 /* TapprTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF1F6241E53D344006EF793 /* TapprTests.swift */,
+				9BF1F6261E53D344006EF793 /* Info.plist */,
+			);
+			path = TapprTests;
+			sourceTree = "<group>";
+		};
+		9BF1F62E1E53D344006EF793 /* TapprUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF1F62F1E53D344006EF793 /* TapprUITests.swift */,
+				9BF1F6311E53D344006EF793 /* Info.plist */,
+			);
+			path = TapprUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF1F60E1E53D344006EF793 /* Tappr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF1F6341E53D344006EF793 /* Build configuration list for PBXNativeTarget "Tappr" */;
+			buildPhases = (
+				9BF1F60B1E53D344006EF793 /* Sources */,
+				9BF1F60C1E53D344006EF793 /* Frameworks */,
+				9BF1F60D1E53D344006EF793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tappr;
+			productName = Tappr;
+			productReference = 9BF1F60F1E53D344006EF793 /* Tappr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF1F61F1E53D344006EF793 /* TapprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF1F6371E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprTests" */;
+			buildPhases = (
+				9BF1F61C1E53D344006EF793 /* Sources */,
+				9BF1F61D1E53D344006EF793 /* Frameworks */,
+				9BF1F61E1E53D344006EF793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF1F6221E53D344006EF793 /* PBXTargetDependency */,
+			);
+			name = TapprTests;
+			productName = TapprTests;
+			productReference = 9BF1F6201E53D344006EF793 /* TapprTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF1F62A1E53D344006EF793 /* TapprUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF1F63A1E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprUITests" */;
+			buildPhases = (
+				9BF1F6271E53D344006EF793 /* Sources */,
+				9BF1F6281E53D344006EF793 /* Frameworks */,
+				9BF1F6291E53D344006EF793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF1F62D1E53D344006EF793 /* PBXTargetDependency */,
+			);
+			name = TapprUITests;
+			productName = TapprUITests;
+			productReference = 9BF1F62B1E53D344006EF793 /* TapprUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF1F6071E53D344006EF793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brett Hales";
+				TargetAttributes = {
+					9BF1F60E1E53D344006EF793 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9BF1F61F1E53D344006EF793 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BF1F60E1E53D344006EF793;
+					};
+					9BF1F62A1E53D344006EF793 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BF1F60E1E53D344006EF793;
+					};
+				};
+			};
+			buildConfigurationList = 9BF1F60A1E53D344006EF793 /* Build configuration list for PBXProject "Tappr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF1F6061E53D344006EF793;
+			productRefGroup = 9BF1F6101E53D344006EF793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF1F60E1E53D344006EF793 /* Tappr */,
+				9BF1F61F1E53D344006EF793 /* TapprTests */,
+				9BF1F62A1E53D344006EF793 /* TapprUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF1F60D1E53D344006EF793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF1F6171E53D344006EF793 /* Assets.xcassets in Resources */,
+				9BF1F61A1E53D344006EF793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F61E1E53D344006EF793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F6291E53D344006EF793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF1F60B1E53D344006EF793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF1F6151E53D344006EF793 /* ViewController.swift in Sources */,
+				9BF1F6131E53D344006EF793 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F61C1E53D344006EF793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF1F6251E53D344006EF793 /* TapprTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1F6271E53D344006EF793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF1F6301E53D344006EF793 /* TapprUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF1F6221E53D344006EF793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF1F60E1E53D344006EF793 /* Tappr */;
+			targetProxy = 9BF1F6211E53D344006EF793 /* PBXContainerItemProxy */;
+		};
+		9BF1F62D1E53D344006EF793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF1F60E1E53D344006EF793 /* Tappr */;
+			targetProxy = 9BF1F62C1E53D344006EF793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF1F6181E53D344006EF793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF1F6191E53D344006EF793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF1F6321E53D344006EF793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF1F6331E53D344006EF793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		9BF1F6351E53D344006EF793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tappr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.Tappr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BF1F6361E53D344006EF793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tappr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.Tappr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BF1F6381E53D344006EF793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TapprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.TapprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappr.app/Contents/MacOS/Tappr";
+			};
+			name = Debug;
+		};
+		9BF1F6391E53D344006EF793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TapprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.TapprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappr.app/Contents/MacOS/Tappr";
+			};
+			name = Release;
+		};
+		9BF1F63B1E53D344006EF793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TapprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.TapprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tappr;
+			};
+			name = Debug;
+		};
+		9BF1F63C1E53D344006EF793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TapprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bretthales.TapprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tappr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF1F60A1E53D344006EF793 /* Build configuration list for PBXProject "Tappr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF1F6321E53D344006EF793 /* Debug */,
+				9BF1F6331E53D344006EF793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF1F6341E53D344006EF793 /* Build configuration list for PBXNativeTarget "Tappr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF1F6351E53D344006EF793 /* Debug */,
+				9BF1F6361E53D344006EF793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BF1F6371E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF1F6381E53D344006EF793 /* Debug */,
+				9BF1F6391E53D344006EF793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BF1F63A1E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF1F63B1E53D344006EF793 /* Debug */,
+				9BF1F63C1E53D344006EF793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF1F6071E53D344006EF793 /* Project object */;
+}
