@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B197C591E5E512E005C4010 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B197C581E5E512E005C4010 /* TransactionModel.swift */; };
 		9BF1F6131E53D344006EF793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F6121E53D344006EF793 /* AppDelegate.swift */; };
 		9BF1F6151E53D344006EF793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F6141E53D344006EF793 /* ViewController.swift */; };
 		9BF1F6171E53D344006EF793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F6161E53D344006EF793 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B197C581E5E512E005C4010 /* TransactionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		9BF1F60F1E53D344006EF793 /* Tappr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tappr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF1F6121E53D344006EF793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF1F6141E53D344006EF793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				9BF1F6121E53D344006EF793 /* AppDelegate.swift */,
 				9BF1F6141E53D344006EF793 /* ViewController.swift */,
+				9B197C581E5E512E005C4010 /* TransactionModel.swift */,
 				9BF1F6161E53D344006EF793 /* Assets.xcassets */,
 				9BF1F6181E53D344006EF793 /* Main.storyboard */,
 				9BF1F61B1E53D344006EF793 /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B197C591E5E512E005C4010 /* TransactionModel.swift in Sources */,
 				9BF1F6151E53D344006EF793 /* ViewController.swift in Sources */,
 				9BF1F6131E53D344006EF793 /* AppDelegate.swift in Sources */,
 			);
@@ -496,6 +500,7 @@
 				9BF1F6361E53D344006EF793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF1F6371E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				9BF1F6391E53D344006EF793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF1F63A1E53D344006EF793 /* Build configuration list for PBXNativeTarget "TapprUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				9BF1F63C1E53D344006EF793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
